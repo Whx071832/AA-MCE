@@ -1,0 +1,14 @@
+{
+  "weight_grid_seconds": 84.73488020000514,
+  "pattern_threshold_seconds": 1.4543862000573426,
+  "pattern_platt_seconds": 3.3550350998993963,
+  "total_seconds": 89.54430149996188,
+  "selected_weights_equal_saved": true,
+  "max_abs_threshold_difference_vs_saved": 5.551115123125783e-17,
+  "max_abs_prediction_difference_vs_saved": {
+    "MCE": 0.0,
+    "AA-MCE": 0.0,
+    "RAMT": 0.0,
+    "EvidFusion": 0.0
+  }
+}

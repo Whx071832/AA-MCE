@@ -1,0 +1,141 @@
+{
+ "onion_AudioOnly_missing_mean_mAP": 0.31135080936006243,
+ "onion_AudioOnly_worst_mAP": 0.1913419613780014,
+ "onion_LyricsOnly_missing_mean_mAP": 0.24843028869002787,
+ "onion_LyricsOnly_worst_mAP": 0.1913396795620355,
+ "onion_VisualOnly_missing_mean_mAP": 0.26944528656928557,
+ "onion_VisualOnly_worst_mAP": 0.1913611223717722,
+ "onion_UniformMean_missing_mean_mAP": 0.362604244915722,
+ "onion_UniformMean_worst_mAP": 0.3142890300823626,
+ "onion_EarlyConcat_missing_mean_mAP": 0.36654156229033014,
+ "onion_EarlyConcat_worst_mAP": 0.3084528238104276,
+ "onion_ConcatModDrop_missing_mean_mAP": 0.37570814326167584,
+ "onion_ConcatModDrop_worst_mAP": 0.3249795435813431,
+ "onion_ReliabilityGate_missing_mean_mAP": 0.36680099385054493,
+ "onion_ReliabilityGate_worst_mAP": 0.3142128631298386,
+ "onion_RAMT_missing_mean_mAP": 0.3769542803391857,
+ "onion_RAMT_worst_mAP": 0.3281217729851413,
+ "onion_H192_missing_mean_mAP": 0.37740459199580895,
+ "onion_H192_worst_mAP": 0.3265634374242258,
+ "onion_H384_missing_mean_mAP": 0.37908338819655646,
+ "onion_H384_worst_mAP": 0.3244425365899013,
+ "onion_AttnFusion_missing_mean_mAP": 0.37425039007293504,
+ "onion_AttnFusion_worst_mAP": 0.3234793456413167,
+ "onion_EvidFusion_missing_mean_mAP": 0.3714618288372186,
+ "onion_EvidFusion_worst_mAP": 0.3281573587853654,
+ "onion_MCE_missing_mean_mAP": 0.38684682290976713,
+ "onion_MCE_worst_mAP": 0.3324170420274829,
+ "onion_AA-MCE_missing_mean_mAP": 0.3892458485784318,
+ "onion_AA-MCE_worst_mAP": 0.3341687107251548,
+ "fma_AudioOnly_missing_mean_mAP": 0.2216797548755709,
+ "fma_TextOnly_missing_mean_mAP": 0.2802685504356712,
+ "fma_SocialOnly_missing_mean_mAP": 0.14786864388214543,
+ "fma_UniformMean_missing_mean_mAP": 0.36486273689081933,
+ "fma_EarlyConcat_missing_mean_mAP": 0.366574417587137,
+ "fma_ConcatModDrop_missing_mean_mAP": 0.39251643235432043,
+ "fma_ReliabilityGate_missing_mean_mAP": 0.3561718965210526,
+ "fma_RAMT_missing_mean_mAP": 0.3870993945163398,
+ "fma_H384_missing_mean_mAP": 0.39040014222714603,
+ "fma_AttnFusion_missing_mean_mAP": 0.37944855471871813,
+ "fma_EvidFusion_missing_mean_mAP": 0.3878989545427559,
+ "fma_MCE_missing_mean_mAP": 0.404459007248119,
+ "fma_AA-MCE_missing_mean_mAP": 0.4092539070625845,
+ "six_AudioEssentiaOnly_missing_mean_mAP": 0.3080694029551649,
+ "six_AudioIvecOnly_missing_mean_mAP": 0.2838891587763941,
+ "six_LyricsTfidfOnly_missing_mean_mAP": 0.24592452751933536,
+ "six_LyricsW2vOnly_missing_mean_mAP": 0.24877681871709142,
+ "six_VisualResnetOnly_missing_mean_mAP": 0.2658706020927397,
+ "six_VisualIncpOnly_missing_mean_mAP": 0.26490417837789787,
+ "six_UniformMean_missing_mean_mAP": 0.3695656703113694,
+ "six_EarlyConcat_missing_mean_mAP": 0.3771959604250869,
+ "six_ConcatModDrop_missing_mean_mAP": 0.38912040902211215,
+ "six_ReliabilityGate_missing_mean_mAP": 0.36610637419370695,
+ "six_RAMT_missing_mean_mAP": 0.38791379101821,
+ "six_H384_missing_mean_mAP": 0.38682111991744206,
+ "six_AttnFusion_missing_mean_mAP": 0.38095205723050257,
+ "six_EvidFusion_missing_mean_mAP": 0.3874105704940141,
+ "six_MCE_missing_mean_mAP": 0.398095129863971,
+ "six_AA-MCE_missing_mean_mAP": 0.40320607747947274,
+ "onion_samples": {
+  "train": 46232,
+  "validation": 4934,
+  "test": 5702
+ },
+ "onion_artists": {
+  "train": 4829,
+  "validation": 584,
+  "test": 585
+ },
+ "onion_coverage": {
+  "train": {
+   "audio": 0.9992429614067078,
+   "lyrics": 1.0,
+   "visual": 0.8987497687339783
+  },
+  "validation": {
+   "audio": 0.9991893172264099,
+   "lyrics": 1.0,
+   "visual": 0.906769335269928
+  },
+  "test": {
+   "audio": 0.9992985129356384,
+   "lyrics": 1.0,
+   "visual": 0.8998597264289856
+  }
+ },
+ "fma_samples": {
+  "train": 83188,
+  "validation": 8912,
+  "test": 10656
+ },
+ "fma_artists": {
+  "train": 12021,
+  "validation": 1505,
+  "test": 1564
+ },
+ "six_views": [
+  {
+   "name": "audio_essentia",
+   "sense": "audio",
+   "dimension": 1034
+  },
+  {
+   "name": "audio_ivec1024",
+   "sense": "audio",
+   "dimension": 400
+  },
+  {
+   "name": "lyrics_tfidf",
+   "sense": "lyrics",
+   "dimension": 1000
+  },
+  {
+   "name": "lyrics_word2vec",
+   "sense": "lyrics",
+   "dimension": 300
+  },
+  {
+   "name": "visual_resnet",
+   "sense": "visual",
+   "dimension": 4096
+  },
+  {
+   "name": "visual_incp",
+   "sense": "visual",
+   "dimension": 4096
+  }
+ ],
+ "six_coverage_test": {
+  "audio_essentia": 0.9992985129356384,
+  "audio_ivec1024": 1.0,
+  "lyrics_tfidf": 1.0,
+  "lyrics_word2vec": 1.0,
+  "visual_resnet": 0.8998597264289856,
+  "visual_incp": 0.8998597264289856
+ },
+ "tag_frequencies_min_max": [
+  4594,
+  25318
+ ],
+ "fma_echonest_fraction": 0.11993243243243243
+}
