@@ -1,0 +1,28 @@
+# TODO (authors): replace every "TODO" value before the public release
+# (author names and affiliations, repository URL, and the article's journal,
+# year, volume, pages and DOI once the paper is published).
+cff-version: 1.2.0
+message: "If you use this code, please cite the article in preferred-citation."
+title: "AA-MCE: availability-aware multi-capacity ensemble for music tagging under missing modalities"
+type: software
+version: 0.1.0
+license: MIT
+authors:
+  - family-names: "TODO"
+    given-names: "TODO"
+    affiliation: "TODO"
+repository-code: "https://github.com/TODO/AA-MCE"
+keywords:
+  - music auto-tagging
+  - social tags
+  - missing modalities
+  - multimodal fusion
+  - ensemble learning
+  - probability calibration
+preferred-citation:
+  type: article
+  title: "Availability-Aware Social Music Tag Mining under Missing Modalities"
+  authors:
+    - family-names: "TODO"
+      given-names: "TODO"
+  journal: "TODO"
